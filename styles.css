@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.graphic {
+    height: 23rem;
+    left: 14rem;
+    position: absolute;
+    top: 5rem;
+    width: 23rem;
+}
+
+.pink-text {
+    color: #FF3998;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.nft-h1 {
+    font-weight: 800;
+    font-size: 48px;
+    margin: auto;
+}
+
+.release-text {
+    color: #555555;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 17.5rem;
+}
+
+.sign-up {
+    background-color: white;
+    border: solid rgb(243, 135, 34);
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 20px;
+    width: 9.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+}
