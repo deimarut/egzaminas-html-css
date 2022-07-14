@@ -1,20 +1,22 @@
 body {
     font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+
+.header, 
+.pink-text, 
+.nft-h1,
+.release-text,
+.sign-up,
+.via {
     margin: 30px;
 }
+
 
 .header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5rem;
-}
-
-.graphic {
-    height: 23rem;
-    left: 14rem;
-    position: absolute;
-    top: 5rem;
-    width: 23rem;
 }
 
 .pink-text {
@@ -29,7 +31,6 @@ body {
 .nft-h1 {
     font-weight: 800;
     font-size: 48px;
-    margin: auto;
 }
 
 .release-text {
@@ -47,9 +48,94 @@ body {
     font-weight: 600;
     padding: 20px;
     width: 9.5rem;
+    margin-bottom: 50px;
 }
 
-@media only screen and (min-width: 768px) {
+.orange-background {
+    background-image: url(/background.svg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.text {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.text:nth-child(2) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.images img {
+    width: 10rem;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column (2);
+    row-gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 2rem 0 0 15px;
+}
+
+.auction {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.via {
+    color: #555555;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+section p a {
+    text-decoration: underline black;
+    color: rgba(85, 85, 85, 1);
+    font-weight: bold;
+}
+
+.scrollable {
+    display: flex;
+    overflow-x: auto;
+    margin-left: 30px;
+}
+
+section.scrollable div {
+    margin: 0 10px 0 0;
+}
+
+.gray {
+    background-color: #EEEEEE;
+    border-radius: 16px;
+    width: 18.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
     .hamburger {
         display: none;
     }
