@@ -1,17 +1,14 @@
 body {
     font-family: 'Inter', sans-serif;
-    width: 100%;
 }
 
 .header, 
 .pink-text, 
 .nft-h1,
 .release-text,
-.sign-up,
 .via {
-    margin: 30px;
+    margin: 37px;
 }
-
 
 .header {
     display: flex;
@@ -30,7 +27,8 @@ body {
 
 .nft-h1 {
     font-weight: 800;
-    font-size: 48px;
+    font-size: 56px;
+    width: 274px;
 }
 
 .release-text {
@@ -38,7 +36,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    width: 17.5rem;
+    width: 16rem;;
 }
 
 .sign-up {
@@ -48,7 +46,9 @@ body {
     font-weight: 600;
     padding: 20px;
     width: 9.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-left: 37px;
+    cursor: pointer;
 }
 
 .orange-background {
@@ -56,13 +56,13 @@ body {
     background-repeat: no-repeat;
     border-radius: 10px;
     padding: 20px;
-    width: 100%;
+    width: 90%;
 }
 
 .text {
     font-size: 40px;
     font-weight: 500;
-    margin-left: 10px;
+    margin-left: 17px;
 }
 
 .text:nth-child(2) {
@@ -87,7 +87,7 @@ body {
 .auction {
     font-size: 40px;
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 37px;
 }
 
 .via {
@@ -95,7 +95,6 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    
 }
 
 section p a {
@@ -107,23 +106,130 @@ section p a {
 .scrollable {
     display: flex;
     overflow-x: auto;
-    margin-left: 30px;
+    margin: 0 0 0 30px;
 }
 
-section.scrollable div {
-    margin: 0 10px 0 0;
+.scrollable img {
+    cursor: pointer;
+}
+
+section div.gray {
+    margin: 0 35px 0 0;
+}
+
+table {
+    padding: 10px;
+    width: 100%;
+}
+
+td, 
+th {
+    padding: 5px;
 }
 
 .gray {
     background-color: #EEEEEE;
     border-radius: 16px;
     width: 18.1rem;
+    
 }
 
+.th-gloop, 
+.th-bid {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;    
+    color: orange;
+    font-weight: bold;
+    text-align: left;
+}
 
+.th-bid {
+    color: #777;
+    text-align: right;
+}
 
+.td-purple,
+.td-eth {
+    font-weight: 500;
+    font-size: 20px;
+}
 
+.td-eth {
+    text-align: right;
+}
 
+.diamond {
+    height: 20px;
+}
+
+.td-numbers, 
+.td-day {
+    font-weight: 400;
+    font-size: 18px;
+    color: #777;
+}
+
+.td-day {
+    text-align: right;
+}
+
+hr { 
+    margin: 50px 0 50px 0px;
+    border-top: 1px solid #eee;
+}
+
+.linija {
+    margin: 20px 0 20px 0;
+}
+
+.exclusive {
+    font-weight: 400;
+    font-size: 15px;
+    color: #555555;
+}
+
+footer img,
+.social, 
+.exclusive {
+    margin: 30px 0 0px 37px;
+}
+
+.list {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: #555555;
+    flex-direction: column (2);
+}
+
+.end-1 {
+    margin-right: 4rem;
+}
+
+footer li ul {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.name, 
+.name-1 {
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.name-1 {
+    margin-top: 45px;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #999;
+    margin: 30px 0 40px 37px;
+}
 
 
 
