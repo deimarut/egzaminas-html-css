@@ -1,10 +1,17 @@
 body {
     font-family: 'Inter', sans-serif;
+    background-image: url(/graphic.svg);
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position-x: 11rem;
+    background-position-y: 3.5rem;
 }
 
 .header, 
 .pink-text, 
+.nft-h1-1,
 .nft-h1,
+.release-text-1,
 .release-text,
 .via {
     margin: 37px;
@@ -25,18 +32,29 @@ body {
     text-transform: uppercase;
 }
 
+.nft-h1-1,
 .nft-h1 {
-    font-weight: 800;
-    font-size: 56px;
-    width: 274px;
+    font-weight: 900;
+    font-size: 48px;
+    width: 19rem;
+    letter-spacing: -2px;
 }
 
-.release-text {
+.nft-h1 {
+    width: 17rem;
+}
+
+.release-text, 
+.release-text-1 {
     color: #555555;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    width: 16rem;;
+    width: 16rem;
+}
+
+.release-text {
+    width: 12rem;
 }
 
 .sign-up {
@@ -131,7 +149,6 @@ th {
     background-color: #EEEEEE;
     border-radius: 16px;
     width: 18.1rem;
-    
 }
 
 .th-gloop, 
@@ -179,8 +196,15 @@ hr {
     border-top: 1px solid #eee;
 }
 
+.background {
+    background-image: url(/green-big.svg);
+    background-repeat: no-repeat;
+    background-position-x: 15rem;
+    background-position-y: 5em;
+}
+
 .linija {
-    margin: 20px 0 20px 0;
+    margin: 0px 0 20px 0;
 }
 
 .exclusive {
