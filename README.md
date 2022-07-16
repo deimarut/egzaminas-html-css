@@ -5,4 +5,5 @@
 07 15 pilnai paruoštas mobile desing 
 
 07 16 pilnai paruošta desktop versija, sutvarktytas kodas 
-  07 16 dar papildytas kodas, pastebėjus praleistas smulkmentas užduotyje 
+
+vėliau dar papildytas kodas, pastebėjus praleistas smulkmentas užduotyje 
