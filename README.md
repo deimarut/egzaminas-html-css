@@ -7,3 +7,5 @@
 07 16 pilnai paruošta desktop versija, sutvarktytas kodas 
 
 vėliau dar papildytas kodas, pastebėjus praleistas smulkmentas užduotyje 
+
+dar kartą papildytas projektas ir sukurtas dev branch. Labai tikiuosi, kad rodys visus reikalingus atnaujinimus, kurie buvo atlikti visą šią savaitę atliekant projektą!
